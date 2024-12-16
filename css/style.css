@@ -1,0 +1,218 @@
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2'); }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v22-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/poppins-v22-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v22-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v22-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+img{
+    display: flex;
+    object-fit: cover;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height:26px;
+    font-weight: 500;
+    color: #fff;
+    background-image: url(../Group\ 5.png
+    );
+    background-color: rgba(255, 121, 121, 1);
+    justify-content: center;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+    gap: 45px;
+}
+
+
+  .container__text{
+    width: 100%;
+    max-width: 525px;
+    height: 220px;
+
+  }
+
+  .conntainer__text__title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.52px;
+    height: 131px;
+  }
+
+  .container__text__subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .container__info {
+    height: 558px;
+    width: 100%;
+    max-width: 540px;
+}
+.container__info__send {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgba(94, 84, 164, 1);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.container__info__information {
+    height: 474px;
+    max-width: 100%;
+    width: 540px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+  
+}
+.container__info__information__itnput {
+    width: 100%;
+    max-width: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border:1px solid rgb(126, 124, 124);
+
+}
+.container__info__information__link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(56, 204, 139, 1);
+  text-align: center;
+  width: 100%;
+  max-width: 460px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container__info__information__link {
+  color: #fff;
+}
+
+.container__info__information__last-text {
+  color: rgba(186, 183, 212, 1);
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.red{
+  color:rgba(255, 121, 121, 1);
+}
+
+@media (max-width: 375px ){
+  .container {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+
+   
+  }
+  .conntainer__text__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .container__text {
+  }
+ 
+  .container__text__subtitle {
+  }
+
+  .container__info {
+  }
+
+  .container__info__send {
+  }
+
+  .container__info__information {
+  }
+
+  .container__info__information__itnput {
+  }
+
+  .container__info__information__link {
+  }
+
+  .container__info__information__last-text {
+  }
+  
+  .red {
+  }
+
+}
